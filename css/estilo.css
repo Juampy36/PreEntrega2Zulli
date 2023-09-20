@@ -76,7 +76,7 @@ form{
     padding: 10px;
     text-align: center;
 }
-h1,h2,h4{
+h1,h4{
     font-family: vina sans;
     letter-spacing: 5px;
 }
@@ -96,19 +96,6 @@ li{
 .sitios a{
     color: black;
 }
-.contenedor{
-    width: 80%;
-    margin: 40px auto;
-    display: flex;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto; 
-}
-
-
-
-
 
 
 
