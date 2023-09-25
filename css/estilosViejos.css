@@ -1,10 +1,6 @@
 
 
 
-ul {
-    list-style-type: none;
-}
-
 h1{
     font-size: 3rem;
     text-align: center;
@@ -24,20 +20,12 @@ p, h3{
     font-family: Preahvihear;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    font-family: preahvihear;
-}
+
 h1,h4{
     font-family: vina sans;
     letter-spacing: 5px;
 }
 
-.sitios a{
-    color: black;
-}
 
 
 
