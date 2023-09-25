@@ -26,6 +26,10 @@ main{
             .tamano1{
                 width: 550px;
                 padding: 2rem;
+                transition: 3s ease;
+                &:hover{
+                    transform: scale(1.1,1.1);
+                }
             }
         }
     }
