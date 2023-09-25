@@ -1,0 +1,37 @@
+main{
+    .padre{
+        width: 90%;
+        margin: 40px auto;
+        display: flex;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1.6fr 1.8fr;
+        grid-template-rows: 0.7fr 0.7fr auto;
+        gap: 10px;
+        grid-template-areas:
+        "ac b"
+        "ac d";
+        .ac{
+            grid-area: ac;
+            text-align: center;
+            overflow: auto;
+        }
+        div{
+            iframe{
+                right: 50px;
+                top: 25rem;
+            }
+        }
+        div{
+            .tamano1{
+                width: 550px;
+                padding: 2rem;
+            }
+        }
+    }
+    form{
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+}
