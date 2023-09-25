@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(9, 72, 124);
+}
+header div .banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header nav div div ul li {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+}
+header nav div div ul li:hover {
+  color: black;
+  background-color: beige;
+  border-radius: 60%;
+}
+
+footer {
+  background-color: rgb(9, 72, 124);
+}
+footer h4 {
+  text-align: center;
+  padding: 10px;
+}
+footer div {
+  text-align: center;
+}
+
+/*# sourceMappingURL=formato.css.map */
