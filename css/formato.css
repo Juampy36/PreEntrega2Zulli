@@ -16,6 +16,7 @@ header nav div div ul li {
   display: inline-block;
   padding: 5px;
   margin: 10px;
+  font-family: Preahvihear;
 }
 header nav div div ul li:hover {
   color: black;
@@ -29,9 +30,33 @@ footer {
 footer h4 {
   text-align: center;
   padding: 10px;
+  color: white;
 }
 footer div {
   text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+p, h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.5;
+  padding: 30px;
+  font-family: Preahvihear;
+}
+
+h1, h4 {
+  font-family: vina sans;
+  letter-spacing: 5px;
 }
 
 main .padre {
