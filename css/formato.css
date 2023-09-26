@@ -60,20 +60,6 @@ h1, h4 {
   letter-spacing: 5px;
 }
 
-@media screen and (max-width: 480px) {
-  .padre {
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 0.5fr auto 0.3fr auto;
-    grid-template-areas: "ac" "b" "d";
-  }
-  footer {
-    width: 100vh;
-  }
-  header {
-    width: 100vh;
-  }
-}
 main .padre {
   width: 90%;
   margin: 40px auto;
@@ -113,6 +99,21 @@ main .sitios a {
   text-decoration: none;
   margin: 10px;
   font-family: preahvihear;
+}
+
+@media screen and (max-width: 360px) {
+  .padre {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 0.5fr auto 0.3fr auto;
+    grid-template-areas: "ac" "b" "d";
+  }
+  footer {
+    width: 100vh;
+  }
+  header {
+    width: 100vh;
+  }
 }
 
 /*# sourceMappingURL=formato.css.map */
